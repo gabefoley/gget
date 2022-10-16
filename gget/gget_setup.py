@@ -110,8 +110,9 @@ def setup(module):
             return
 
         ## Install Alphafold if not already installed
-        logging.ingo("Hello logging")
+        logging.info("Hello logging")
         logging.info("Installing AlphaFold from source (requires pip and git).")
+        logging.info(ALPHAFOLD_GIT_REPO)
         # Install AlphaFold and apply OpenMM patch.
         # command = f"""
         #     git clone {ALPHAFOLD_GIT_REPO} alphafold \
