@@ -19,7 +19,7 @@ logging.getLogger("numexpr").setLevel(logging.WARNING)
 from .compile import PACKAGE_PATH
 
 ## Variables for alphafold module
-ALPHAFOLD_GIT_REPO = "https://github.com/gabefoley/alphafold"
+#ALPHAFOLD_GIT_REPO = "https://github.com/gabefoley/alphafold"
 PDBFIXER_GIT_REPO = "https://github.com/openmm/pdbfixer.git"
 # Unique ID to name temporary jackhmmer folder
 UUID = "fcb45c67-8b27-4156-bbd8-9d11512babf2"
